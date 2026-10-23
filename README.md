@@ -50,14 +50,14 @@ MCL-PINNs/
 ├── Droplet coalescence.py
 ├── soap.py
 ├── IRK_weights.zip
-└── FEM_reference_data_droplet_coalescence/
+└── FEM_reference_data_droplet_coalescence.zip
     └── theta_s=50_T=8.mat
 ```
 
 - `Droplet coalescence.py` implements the MCL-PINNs solver and the droplet-coalescence experiment.
 - `soap.py` contains the SOAP optimizer used to update the neural-network parameters.
 - `IRK_weights.zip` contains Butcher tableaux for the supported IRK stage counts.
-- `FEM_reference_data_droplet_coalescence/` contains the reference solution at $T=8$ for a static contact angle of $50^\circ$.
+- `FEM_reference_data_droplet_coalescence.zip` contains the reference solution at $T=8$ for a static contact angle of $50^\circ$.
 
 ## Installation
 
